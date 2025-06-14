@@ -44,18 +44,22 @@ h1 {
 }
 
 .reset-btn {
-	padding: 1rem;
+	padding: 1.25rem;
 	margin-top: 4vmin;
 	font-size: 1.25rem;
 	background-color: #805D93;
+	color: #9EBD6E;
+	font-weight: 700;
 	border-radius: 1rem;
 	border: none;
 }
 
 .new-btn {
-	padding: .7rem;
+	padding: 1.25rem;
 	font-size: 1.25rem;
 	background-color: #805D93;
+	color: #9EBD6E;
+	font-weight: 700;
 	border-radius: 1rem;
 	border: none;
 }
