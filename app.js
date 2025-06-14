@@ -30,9 +30,11 @@ boxes.forEach((box) => {
 		console.log("box was clicked");
 		if(turnO === true) {
 			box.innerText = "O";  //button text
+			// box.style.color = "red";
 			turnO = false; // set to false so it shouldn't be true again for next, bcoz the next player is "X"
 		}else {
 			box.innerText = "X";
+			// box.style.color = "orange";
 			turnO = true; // set true Bcoz now it's player "O" turn
 		}
 		box.disabled = true; //Disable the button after click to prevent value changes
